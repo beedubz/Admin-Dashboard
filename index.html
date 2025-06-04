@@ -1,64 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-    <div class="sidebar">
-        <p id="title">Dashboard</p>
-        <div id="tabs">
-        <div class="upper-sidebar">
-            <p>Home</p>
-            <p>Profile</p>
-            <p>Messages</p>
-            <p>History</p>
-            <p>Tasks</p>
-            <p>Communities</p>
+      <div class="sidebar">
+        <div class="margin-side"></div>
+        <div class="main-side">
+          <p id="title">Dashboard</p>
+          <div id="tabs">
+            <div class="upper-sidebar">
+              <p>Home</p>
+              <p>Profile</p>
+              <p>Messages</p>
+              <p>History</p>
+              <p>Tasks</p>
+              <p>Communities</p>
+            </div>
+            <div class="lower-sidebar">
+              <p></p>
+              <p>Settings</p>
+              <p>Support</p>
+              <p>Privacy</p>
+            </div>
+          </div>
         </div>
-        <div class="lower-sidebar">
-            <p></p>
-            <p>Settings</p>
-            <p>Support</p>
-            <p>Privacy</p>
+      </div>
+      <div class="header">
+        <div class="top-head-left">
+          <input type="text" id="searchBar" name="userInput" />
         </div>
-        </div>
-    </div>
-    <div class="header">
-        <div class="top-head-container">
-            <div class="top-head-left"></div>
-            <div class="top-head-right>"></div>
+        <div class="top-head-right>">
+          <p>Morgan Oakley</p>
         </div>
         <div class></div>
-        <div class="bottom-head-container">
-            <div class="bottom-head-left">
-                <div id="user-photo"></div>
-                <div class="user-greeting">
-                    <p id="hi">Hi there,</p>
-                    <p id="user_name">Morgan Oakley (@morgan)</p>
-                </div>
+        <div class="bottom-head-left">
+          <div id="user-photo"></div>
+          <div class="user-greeting">
+            <p id="hi">Hi there,</p>
+            <p id="user_name">Morgan Oakley (@morgan)</p>
+          </div>
+        </div>
+        <div class="bottom-head-right">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="projects">
+          <p class="main-title">Your Projects</p>
+          <div class="main-cards">
+            <div class="main-cards-left">
+              <div class="card">
+                <p class="card-title">Super Cool Project</p>
+                <p class="card-text">
+                  Methought as I was dropping asleep somepart in nonland of
+                  where's please (and it was when you and they were we) I heard
+                  at zero hour as ’twere the peal of vixen’s laughter among
+                  midnight’s chimes from out the belfry of the cute old speckled
+                  church tolling so faint
+                </p>
+                <p class="card-links"></p>
+              </div>
             </div>
-            <div class="bottom-head-right">
-              <button>New</button>
-              <button>Upload</button>
-              <button>Share</button>
+            <div class="main-cards-right">
+              <div class="card">
+                <p class="card-title">Less Cool Project</p>
+                <p class="card-text">
+                  a goodmantrue as nighthood's unseen violet rendered all
+                  animated greatbritish and Irish objects nonviewable to human
+                  watchers save 'twere perchance anon some glistery gleam
+                  darkling adown surface of affluvial flowandflow as again might
+                  seem garments of laundry reposing a leasward close at hand in
+                  full expectation.
+                </p>
+                <p class="card-links"></p>
+              </div>
             </div>
+          </div>
         </div>
+        <div class="announcements">
+          <p class="main-title">Announcements</p>
+          <div id="announce-card">
+            <p class="announce-title">Site Maintenance</p>
+            <p class="announce-text">
+              This is the text that makes us weep. That makes us weep and makes
+              us sleep.
+            </p>
+            <p class="announce-title">Community Share Day</p>
+            <p class="announce-text">
+              This is the text that makes us cry. That makes us cry and makes us
+              wry.
+            </p>
+            <p class="announce-title">Updated Privacy Policy</p>
+            <p class="announce-text">
+              This is the text that makes us sob. That makes us sob and makes us
+              bob.
+            </p>
+          </div>
+        </div>
+        <div class="trending">
+          <p class="main-title">Trending</p>
+          <div class="trend-card">
+            <div class="trend-user">
+            <div class="trend-user-photo"></div>
+            <div class="trend-user-handle">James</div>
+            <div class="trend-user-name">John</div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="main-content">
-        <div class="main-left">
-            <p>Your Projects</p>
-        </div>
-        <div class="main-left">
-            <p>Announcements</p>
-        </div>
-    </div>
-</div>
-</body>
+  </body>
 </html>
